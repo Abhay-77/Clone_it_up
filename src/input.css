@@ -1,0 +1,62 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+nav{
+    gap: 12rem;
+}
+.hero{
+    background: #F5F5F5;
+    /* background: #000; */
+    height: 28rem;
+}
+.hero-text h1{
+    font-size: 3rem;
+}
+.clients h1{
+    font-size: 1.5rem;
+}
+.community-member{
+    width: 30%;
+    text-align: center;
+    /* width: 40%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+.community-member p{
+    /* width: 70%; */
+}
+.achievements{
+    background: #F5F5F5;
+}
+.achievements h1{
+    font-weight: bold;
+}
+.counters{
+    margin: 2rem;
+}
+.achieve-text h1{
+    font-size: 2rem
+}
+.updates-img{
+    height: 60%;
+    width: 75%;
+}
+.updates-img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.updates-img-ext{
+    @apply bg-nSilver flex flex-col text-center items-center p-4 gap-2;
+    width: 60%;
+    transform: translateY(-25%);
+    border-radius: 8px;
+}
