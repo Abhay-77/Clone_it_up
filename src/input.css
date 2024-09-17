@@ -10,16 +10,16 @@ nav{
     gap: 12rem;
 }
 .hero{
-    background: #F5F5F5;
+    @apply bg-nSilver;
     /* background: #000; */
     height: 28rem;
 }
-.hero-text h1{
+/* .hero-text h1{
     font-size: 3rem;
-}
-.clients h1{
+} */
+/* .clients h1{
     font-size: 1.5rem;
-}
+} */
 .community-member{
     width: 30%;
     text-align: center;
@@ -33,17 +33,17 @@ nav{
     /* width: 70%; */
 }
 .achievements{
-    background: #F5F5F5;
+    @apply bg-nSilver;
 }
-.achievements h1{
+/* .achievements h1{
     font-weight: bold;
-}
+} */
 .counters{
     margin: 2rem;
 }
-.achieve-text h1{
+/* .achieve-text h1{
     font-size: 2rem
-}
+} */
 .updates-img{
     height: 60%;
     width: 75%;
@@ -59,4 +59,83 @@ nav{
     width: 60%;
     transform: translateY(-25%);
     border-radius: 8px;
+}
+.footer-list{
+    @apply flex flex-col gap-4;
+}
+.footer-list ul{
+    @apply flex flex-col justify-around items-start;
+}
+.footer-list li{
+    margin: 10px;
+}
+h1{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+h3{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.body-1 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.body-2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.body-3 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.body-4 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.counters h1{
+     font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    @apply text-nD_Grey;
+}
+.updates-img-ext h1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    @apply text-nGrey;
+}
+.button1{
+    color: white;
+    @apply bg-primary;
+    border-radius: 3px;
+    height: 2.5rem;
+    width: 8.5rem;
+    
+}
+.button2{
+    background: white;
+    @apply text-primary;
+    border-radius: 3px;
+    border: 1px solid #28CB8B;
+    height: 2.5rem;
+    width: 8.5rem;
+    
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clone it up</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
@@ -15,7 +15,7 @@
           alt="Logo.png"
         />
 
-        <ul class="flex gap-8">
+        <ul class="flex gap-7">
           <li><a href="">Home</a></li>
           <li><a href="">Service</a></li>
           <li><a href="">Feature</a></li>
@@ -24,9 +24,9 @@
           <li><a href="">FAQ</a></li>
         </ul>
 
-        <div class="gap-6 flex">
-          <button>Login</button>
-          <button>Sign up</button>
+        <div class="gap-4 flex">
+          <button class="button2">Login</button>
+          <button class="button1">Sign up</button>
         </div>
       </nav>
     </header>
@@ -34,12 +34,12 @@
     <main>
       <section class="hero flex justify-center gap-40 items-center">
         <div class="hero-text flex flex-col items-start">
-          <h1>Lessons and Insights</h1>
-          <h1>from 8 years</h1>
-          <div class="mt-2">
+          <h2 class="text-nD_Grey">Lessons and Insights</h2>
+          <h2 class="text-primary">from 8 years</h2>
+          <div class="mt-2 body-2 text-nGrey">
             Where to grow your business as a photographer: site or socialmedia?
           </div>
-          <button class="mt-6">Register</button>
+          <button class="mt-6 button1">Register</button>
         </div>
         <img
           class="h-80"
@@ -50,8 +50,10 @@
       <section class="clients flex flex-col gap-10">
         <div class="flex flex-col gap-6">
           <div class="flex flex-col items-center">
-            <h1>Our Cients</h1>
-            <div>We have been working with some Fortune 500+ clients</div>
+            <h2 class="text-nGrey">Our Cients</h2>
+            <div class="body-2 text-nD_Grey">
+              We have been working with some Fortune 500+ clients
+            </div>
           </div>
           <div class="flex justify-center gap-20">
             <img class="client-logos" src="./src/components/Logo.png" alt="" />
@@ -89,31 +91,31 @@
         </div>
         <div class="flex flex-col gap-10">
           <div class="flex flex-col items-center">
-            <h1>Manage your entire community</h1>
-            <h1>in a single system</h1>
-            <div class="">Who is Nextcent suitable for?</div>
+            <h2 class="text-nD_Grey">Manage your entire community</h2>
+            <h2 class="text-nD_Grey">in a single system</h2>
+            <div class="body-2 text-nGrey">Who is Nextcent suitable for?</div>
           </div>
           <div class="flex justify-center">
             <div class="community-member">
               <img src="./src/components/Icon.png" alt="" />
-              <h1>Membership<br />Organisations</h1>
-              <p class="w-3/4">
+              <h3 class="text-nD_Grey">Membership<br />Organisations</h3>
+              <p class="w-3/4 text-nGrey body-3">
                 Our membership management software provides full automation of
                 membership renewals and payments
               </p>
             </div>
             <div class="community-member">
               <img src="./src/components/Icon (1).png" alt="" />
-              <h1>National<br />Associations</h1>
-              <p class="w-3/6">
+              <h3 class="text-nD_Grey">National<br />Associations</h3>
+              <p class="w-3/6 text-nGrey body-3">
                 Our membership management software provides full automation of
                 membership renewals and payments
               </p>
             </div>
             <div class="community-member">
               <img src="./src/components/Icon (2).png" alt="" />
-              <h1>Clubs And Groups</h1>
-              <p class="w-3/4">
+              <h3 class="text-nD_Grey">Clubs And Groups</h3>
+              <p class="w-3/4 text-nGrey body-3">
                 Our membership management software provides full automation of
                 membership renewals and payments
               </p>
@@ -123,9 +125,11 @@
       </section>
       <section class="achievements flex items-center justify-center gap-44">
         <div class="achieve-text">
-          <h1>Helping a local</h1>
-          <h1>business reinvent itself</h1>
-          <div>We reached here with our hard work and dedication</div>
+          <h2 class="text-nD_Grey">Helping a local</h2>
+          <h2 class="text-primary">business reinvent itself</h2>
+          <div class="body-2">
+            We reached here with our hard work and dedication
+          </div>
         </div>
         <div class="flex gap-8">
           <div class="counter-row">
@@ -133,14 +137,14 @@
               <img src="./src/components/Users.png" alt="" />
               <div>
                 <h1>2,245,341</h1>
-                <div>Members</div>
+                <div class="body-2 text-nD_Grey">Members</div>
               </div>
             </div>
             <div class="counters">
               <img src="./src/components/Vector.png" alt="" />
               <div>
                 <h1>46,328</h1>
-                <div>Clubs</div>
+                <div class="body-2 text-nD_Grey">Clubs</div>
               </div>
             </div>
           </div>
@@ -149,14 +153,14 @@
               <img src="./src/components/Calendar.png" alt="" />
               <div>
                 <h1>828,867</h1>
-                <div>Event Bookings</div>
+                <div class="body-2 text-nD_Grey">Event Bookings</div>
               </div>
             </div>
             <div class="counters">
               <img src="./src/components/Upload 2.png" alt="" />
               <div>
                 <h1>1,926,436</h1>
-                <div>Payments</div>
+                <div class="body-2 text-nD_Grey">Payments</div>
               </div>
             </div>
           </div>
@@ -166,8 +170,10 @@
         <img src="./src/components/Feature 2 Illustration.png" alt="" />
 
         <div class="w-5/12 text-left flex flex-col items-start gap-4">
-          <h1 class="">How to design your site footer like<br />we did</h1>
-          <p class="">
+          <h2 class="text-nD_Grey">
+            How to design your site footer like we did
+          </h2>
+          <p class="body-3 text-nGrey">
             Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
             augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque
             elit erat a magna. Donec quis erat at libero ultrices mollis. In hac
@@ -178,13 +184,13 @@
             hendrerit venenatis libero. Donec consectetur faucibus ipsum id
             gravida.
           </p>
-          <button>Learn more</button>
+          <button class="button1">Learn more</button>
         </div>
       </section>
       <section class="bg-nSilver flex justify-around p-12">
         <img class="h-1/2" src="./src/components/Image.png" alt="" />
         <div class="w-1/2">
-          <p>
+          <p class="body-2 text-nGrey">
             Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
             lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
             enim metus. Vivamus sed libero ornare, tristique quam in, gravida
@@ -196,8 +202,10 @@
             Quisque vulputate odio neque, eget efficitur libero condimentum id.
             Curabitur id nibh id sem dignissim finibus ac sit amet magna.
           </p>
-          <h2>Tim Smith</h2>
-          <div>British Dragon Boat Racing Association</div>
+          <h4 class="text-primary">Tim Smith</h4>
+          <div class="body-2 text-nL_Grey">
+            British Dragon Boat Racing Association
+          </div>
           <div class="flex items-center justify-evenly">
             <img src="./src/components/Logo (7).png" alt="" />
             <img src="./src/components/Logo (8).png" alt="" />
@@ -206,7 +214,7 @@
             <img src="./src/components/Logo (11).png" alt="" />
             <img src="./src/components/Logo (12).png" alt="" />
             <label class="flex items-baseline gap-2">
-              <a href="">Meet all customers</a
+              <a class="text-primary" href=""><h4>Meet all customers</h4></a
               ><img class="h-1/2" src="./src/components/Right.png" alt="" />
             </label>
           </div>
@@ -214,8 +222,8 @@
       </section>
       <section class="flex flex-col items-center p-10 gap-6">
         <div class="text-center w-1/2">
-          <h1>Caring is the new marketing</h1>
-          <p>
+          <h2 class="text-nD_Grey">Caring is the new marketing</h2>
+          <p class="body-2 text-nGrey">
             The Nexcent blog is the best place to read about the latest
             membership insights, trends and more. See who's joining the
             community, read about how our community are increasing their
@@ -224,84 +232,114 @@
         </div>
         <div class="flex justify-evenly">
           <div class="updates-img-container">
-            <img class="updates-img" src="./src/components/image 18.png" alt="" />
+            <img
+              class="updates-img"
+              src="./src/components/image 18.png"
+              alt=""
+            />
             <div class="updates-img-ext">
               <h1>Creating Streamlined Safeguarding Processes with OneRen</h1>
-              <div class="flex items-baseline gap-2">
-                <button>Read more</button>
-                <img class="h-1/2" src="./src/components/Right.png" alt="" />
+              <div class="flex items-center justify-center gap-2">
+                <button class="flex items-center gap-2 button2   justify-center">
+                  Read more
+
+                  <img src="./src/components/Right.png" alt="" />
+                </button>
               </div>
             </div>
           </div>
           <div class="updates-img-container">
-            <img class="updates-img" src="./src/components/image 19.png" alt="" />
+            <img
+              class="updates-img"
+              src="./src/components/image 19.png"
+              alt=""
+            />
             <div class="updates-img-ext">
               <h1>
                 What are your safeguarding responsibilities and how can you
                 manage them?
               </h1>
-              <div class="flex items-baseline gap-2">
-                <button>Read more</button>
-                <img class="h-1/2" src="./src/components/Right.png" alt="" />
+              <div class="flex items-center justify-center gap-2">
+                <button class="flex items-center gap-2 button2 justify-center">
+                  Read more
+
+                  <img src="./src/components/Right.png" alt="" />
+                </button>
               </div>
             </div>
           </div>
           <div class="updates-img-container">
-            <img class="updates-img" src="./src/components/image 20.png" alt="" />
+            <img
+              class="updates-img"
+              src="./src/components/image 20.png"
+              alt=""
+            />
             <div class="updates-img-ext">
               <h1>Revamping the Membership Model with Triathlon Australia</h1>
-              <div class="flex items-baseline gap-2">
-                <button>Read more</button>
-                <img class="h-1/2" src="./src/components/Right.png" alt="" />
+              <div class="flex items-center justify-center gap-2">
+                <button class="flex items-center gap-2 button2 justify-center">
+                  Read more
+
+                  <img src="./src/components/Right.png" alt="" />
+                </button>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="bg-nSilver p-20">
-        <h1 class="">Wanna try our app?</h1>
-        <button>Get a demo<img src="./src/components/Right.png" /></button>
+      <section
+        class="bg-nSilver p-20 flex flex-col items-center justify-evenly gap-8"
+      >
+        <h1 class="text-nBlack">Wanna try our app?</h1>
+
+        <button class="flex items-center gap-2 button1 justify-center">
+          Get a demo<img src="./src/components/Right1.png" />
+        </button>
       </section>
     </main>
-      <footer>
+    <footer class="bg-nBlack flex justify-around p-6 h-80 pt-10">
+      <div class="flex flex-col justify-between">
+        <img class="h-10 w-48" src="./src/components/Logo (13).png" alt="" />
         <div>
-          <img src="./src/components/Switch Mode=NO.png" alt="">
-          <div>
-            <div>Copyright © 2024 Riglabs Collective</div>
-            <div>All rights reserved.</div>
-          </div>
-          <div>
-            <img src="./src/components/Social Icons.png" alt="">
-            <img src="./src/components/Social Icons (1).png" alt="">
-            <img src="./src/components/Social Icons (2).png" alt="">
-            <img src="./src/components/Social Icons (3).png" alt="">
-          </div>
+          <div>Copyright © 2024 Riglabs Collective</div>
+          <div>All rights reserved.</div>
         </div>
-        <div>
-          <h2>Company</h2>
-          <ul>
-            <li>About us</li>
-            <li>Blog</li>
-            <li>Contact us</li>
-            <li>Pricing</li>
-            <li>Testimonials</li>
-          </ul>
+        <div class="flex gap-2">
+          <img src="./src/components/Social Icons.png" alt="" />
+          <img src="./src/components/Social Icons (1).png" alt="" />
+          <img src="./src/components/Social Icons (2).png" alt="" />
+          <img src="./src/components/Social Icons (3).png" alt="" />
         </div>
-        <div>
-          <h2>Support</h2>
-          <ul>
-            <li>Help center</li>
-            <li>Terms of service</li>
-            <li>Legal</li>
-            <li>Privacy policy</li>
-            <li>Status</li>
-          </ul>
-        </div>
-        <div>
-          <h2>Stay up to date</h2>
-          <input type="email" name="address" id="">
-        </div>
-      </footer>
-    
+      </div>
+      <div class="footer-list">
+        <h2>Company</h2>
+        <ul>
+          <li>About us</li>
+          <li>Blog</li>
+          <li>Contact us</li>
+          <li>Pricing</li>
+          <li>Testimonials</li>
+        </ul>
+      </div>
+      <div class="footer-list">
+        <h2>Support</h2>
+        <ul>
+          <li>Help center</li>
+          <li>Terms of service</li>
+          <li>Legal</li>
+          <li>Privacy policy</li>
+          <li>Status</li>
+        </ul>
+      </div>
+      <div class="flex flex-col justify-center gap-4">
+        <h2>Stay up to date</h2>
+        <input
+          type="email"
+          name="address"
+          id=""
+          placeholder="Your email address"
+        />
+      </div>
+    </footer>
   </body>
 </html>
