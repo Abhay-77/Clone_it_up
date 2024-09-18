@@ -6,44 +6,25 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-nav{
-    gap: 12rem;
-}
+
 .hero{
     @apply bg-nSilver;
-    /* background: #000; */
     height: 28rem;
 }
-/* .hero-text h1{
-    font-size: 3rem;
-} */
-/* .clients h1{
-    font-size: 1.5rem;
-} */
 .community-member{
     width: 30%;
     text-align: center;
-    /* width: 40%; */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: .5rem;
 }
-.community-member p{
-    /* width: 70%; */
-}
 .achievements{
     @apply bg-nSilver;
 }
-/* .achievements h1{
-    font-weight: bold;
-} */
 .counters{
     margin: 2rem;
 }
-/* .achieve-text h1{
-    font-size: 2rem
-} */
 .updates-img{
     height: 60%;
     width: 75%;
@@ -137,5 +118,4 @@ h4{
     border: 1px solid #28CB8B;
     height: 2.5rem;
     width: 8.5rem;
-    
 }

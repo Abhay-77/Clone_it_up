@@ -8,14 +8,14 @@
   </head>
   <body>
     <header>
-      <nav class="flex h-16 items-center justify-center nav">
+      <nav class="flex h-16 items-center justify-around gap-2">
         <img
-          class="h-10"
+          class="h-10 md:h-6 md:w-2/12"
           src="./src/components/Switch Mode=NO.png"
           alt="Logo.png"
         />
 
-        <ul class="flex gap-7">
+        <ul class="flex justify-between w-1/2">
           <li><a href="">Home</a></li>
           <li><a href="">Service</a></li>
           <li><a href="">Feature</a></li>
@@ -24,15 +24,16 @@
           <li><a href="">FAQ</a></li>
         </ul>
 
-        <div class="gap-4 flex">
-          <button class="button2">Login</button>
-          <button class="button1">Sign up</button>
+        <div class="flex gap-2">
+          <button class="button2 md:w-20">Login</button>
+          <button class="button1 md:w-20">Sign up</button>
         </div>
       </nav>
     </header>
 
     <main>
-      <section class="hero flex justify-center gap-40 items-center">
+      <section class="hero flex flex-col items-center p-4">
+        <div class="hero flex justify-center gap-40 items-center">
         <div class="hero-text flex flex-col items-start">
           <h2 class="text-nD_Grey">Lessons and Insights</h2>
           <h2 class="text-primary">from 8 years</h2>
@@ -45,7 +46,8 @@
           class="h-80"
           src=".\src\components\Hero Illustration.png"
           alt="hero.png"
-        />
+        /></div>
+        <img src="./src/components/Dots.png" alt="">
       </section>
       <section class="clients flex flex-col gap-10">
         <div class="flex flex-col gap-6">
@@ -55,7 +57,7 @@
               We have been working with some Fortune 500+ clients
             </div>
           </div>
-          <div class="flex justify-center gap-20">
+          <div class="flex justify-evenly">
             <img class="client-logos" src="./src/components/Logo.png" alt="" />
             <img
               class="client-logos"
@@ -121,6 +123,21 @@
               </p>
             </div>
           </div>
+        </div>
+      </section>
+      <section class="flex p-8 justify-evenly items-center">
+        <img src="./src/components/Feature 1 Illustration.png" alt="" />
+        <div class="w-1/2 flex flex-col items-start gap-6">
+          <h2 class="text-nD_Grey">The unseen of spending three years at Pixelgrade</h2>
+          <div class="body-3 text-nGrey">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+            amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
+            Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
+            tristique iaculis. Nullam pulvinar sit amet risus pretium auctor.
+            Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
+            elementum pulvinar odio.
+          </div>
+          <button class="button1">Learn more</button>
         </div>
       </section>
       <section class="achievements flex items-center justify-center gap-44">
@@ -206,17 +223,19 @@
           <div class="body-2 text-nL_Grey">
             British Dragon Boat Racing Association
           </div>
-          <div class="flex items-center justify-evenly">
+          <div class="flex items-center justify-evenly md:flex-col md:items-start">
+            <div class="flex">
             <img src="./src/components/Logo (7).png" alt="" />
             <img src="./src/components/Logo (8).png" alt="" />
             <img src="./src/components/Logo (9).png" alt="" />
             <img src="./src/components/Logo (10).png" alt="" />
             <img src="./src/components/Logo (11).png" alt="" />
-            <img src="./src/components/Logo (12).png" alt="" />
+            <img src="./src/components/Logo (12).png" alt="" /></div>
+            <div>
             <label class="flex items-baseline gap-2">
               <a class="text-primary" href=""><h4>Meet all customers</h4></a
               ><img class="h-1/2" src="./src/components/Right.png" alt="" />
-            </label>
+            </label></div>
           </div>
         </div>
       </section>
@@ -240,7 +259,7 @@
             <div class="updates-img-ext">
               <h1>Creating Streamlined Safeguarding Processes with OneRen</h1>
               <div class="flex items-center justify-center gap-2">
-                <button class="flex items-center gap-2 button2   justify-center">
+                <button class="flex items-center gap-2 button2 justify-center">
                   Read more
 
                   <img src="./src/components/Right.png" alt="" />
