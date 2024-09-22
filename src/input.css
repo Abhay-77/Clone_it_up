@@ -6,7 +6,9 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-
+body{
+    width: 100vb;
+}
 .hero{
     @apply bg-nSilver;
     height: 28rem;
