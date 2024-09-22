@@ -7,7 +7,7 @@
 @import "tailwindcss/utilities";
 
 body{
-    width: 100vb;
+    width: 100%;
 }
 .hero{
     @apply bg-nSilver;
